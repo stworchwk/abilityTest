@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Layout, Menu, Icon } from 'antd';
+import { Layout } from 'antd';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 //Layout
@@ -13,7 +13,7 @@ import Dashboard from './../Components/Dashboard';
 import Rooms from './../Components/Rooms';
 //Components
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Content } = Layout;
 
 class MasterLayout extends Component {
     render() {

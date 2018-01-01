@@ -1,0 +1,16 @@
+{
+    "rooms": [{
+        "id": 1,
+        "number": "2010",
+        "price": 2300,
+        "electric_rate": 8,
+        "water_rate": 200
+    },
+    {
+        "id": 1,
+        "number": "2011",
+        "price": 2600,
+        "electric_rate": 8,
+        "water_rate": 200
+    }]
+}
