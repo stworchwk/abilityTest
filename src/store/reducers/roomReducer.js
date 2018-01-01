@@ -5,9 +5,10 @@ const initialState = {
 }
 
 const roomReducer = (state = initialState, action) => {
+    let newState = { ...state };
     switch (action.type) {
         case GET_ROOMS:
-            return state.rooms;
+            return newState.rooms = action.payload;
             break;
         default:
             return state.rooms;
