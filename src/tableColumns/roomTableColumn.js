@@ -2,6 +2,10 @@ import React from 'react';
 
 export const roomTableColumn = [
     {
+        title: 'Key',
+        dataIndex: 'key',
+        key: 'key',
+    },{
         title: 'หมายเลขห้อง',
         dataIndex: 'number',
         key: 'number',
