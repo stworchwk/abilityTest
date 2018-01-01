@@ -6,8 +6,8 @@ const { Header } = Layout;
 class HeaderLayout extends Component {
     render() {
         return (
-            <Header style={{ background: '#fff', padding: 0 }} >
-                Header
+            <Header className="stw-header">
+                ระบบห้องพัก
             </Header>
         )
     }

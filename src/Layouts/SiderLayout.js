@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
 import { Layout, Menu, Icon } from 'antd';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
+import logo from './../images/logo.png';
 
 const { Sider } = Layout;
-
-const logo = {
-    height: '32px',
-    background: 'rgba(255,255,255,.2)',
-    margin: '16px'
-};
 
 class SiderLayout extends Component {
     render() {
@@ -18,7 +14,9 @@ class SiderLayout extends Component {
                 collapsedWidth="0"
                 onCollapse={(collapsed, type) => { console.log(collapsed, type); }}
             >
-                <div style={logo} >Logo</div>
+                <div className="stw-logo">
+                    <img src={logo} alt="logo" width="30px" />
+                </div>
                 <Menu theme="dark" mode="inline" defaultSelectedKeys={['4']}>
                     <Menu.Item key="1">
                         <Link to="/">
